@@ -76,7 +76,7 @@
   border: 0;
   color: var(--color-button-text-primary);
   background-color: var(--color-button-primary);
-
+  
   font-size: 14px;
   font-weight: bold;
   padding: 16px 40px;
@@ -88,14 +88,18 @@
   text-decoration: none;
 }
 
-.link__type_primary {
+.link_type_primary {
   font-weight: 600;
   font-size: 14px;
   color: var(--color-link-action);
 }
 
-.link__type_with-icon {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-column-gap: 4px;
+.link_with-icon_right, .link_with-icon_left {
+  display: inline-flex;
+  // justify-content: center;
+  align-items: center;
+}
+
+.link_with-icon_right .link__icon  {
+  margin-left: 8px;
 }

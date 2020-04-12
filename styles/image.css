@@ -1,4 +1,11 @@
 .image {
   width: 100%;
+}
+
+.first-screen__image {
+  margin: 0 auto;
+  text-align: center;
   z-index: 2;
+  width: 100%;
+  max-width: 950px;
 }

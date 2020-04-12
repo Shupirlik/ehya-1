@@ -11,42 +11,74 @@
   <link rel="stylesheet" href="./styles/controls.css">
   <link rel="stylesheet" href="./styles/text.css">
   <link rel="stylesheet" href="./styles/icons.css">
+  <link rel="stylesheet" href="./styles/caption.css">
   <title>Ehya</title>
 </head>
+
 <body class="page theme">
-  <header class="header">
-    <div class="header__logo">
-      <!-- <svg class="logo"></svg> -->
-      <div class="logo">ehya•</div>
-    </div>
-    <button class="header__burger">
-      <div class="burger">
-        <div class="burger__middle-line"></div>
+
+  <div class="container">
+    <header class="header">
+      <div class="header__logo">
+        <!-- <svg class="logo"></svg> -->
+        <div class="logo">ehya•</div>
       </div>
-    </button>
-  </header>
+      <button class="header__burger">
+        <div class="burger">
+          <div class="burger__middle-line"></div>
+        </div>
+      </button>
+    </header>
+  </div>
+
+  <div class="container">
+    <section class="first-screen">
+      <div class="first-screen__cell">
+        <h1 class="title">Track Instagram Business&nbspPerformance</h1>
+        <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minus aspernatur facilis quas optio aperiam!</p>
+        <button class="button button_view_primary button_size_l">Get 14-Days trial</button>
+      </div>
+    </section>
+  </div>
+
   <section class="first-screen">
-    <h1 class="title">Track Instagram Business Performance</h1>
-    <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minus aspernatur facilis quas optio aperiam!</p>
-    <button class="button button_view_primary button_size_l">Get 14-Days trial</button>
-    <img src="imgs/kakayatokartinka.png" alt="" class="image">
+    <img src="imgs/kakayatokartinka.png" alt="" class="first-screen__image">
     <div class="first-screen__company">
       <a href="#" class="first-screen__logo"><img src="./imgs/logos/slack.png" alt=""></a>
-
       <a href="#" class="first-screen__logo"><img src="./imgs/logos/netflix.png" alt=""></a>
-    
       <a href="#" class="first-screen__logo"><img src="./imgs/logos/google.png" alt=""></a>
-    
       <a href="#" class="first-screen__logo"><img src="./imgs/logos/airbnb.png" alt=""></a>
-    
       <a href="#" class="first-screen__logo"><img src="./imgs/logos/uber.png" alt=""></a>
     </div>
   </section>
+  
   <section class="second-screen">
-    <h2 class="subtitle">Measure Impressions and Reach Post</h2>
-    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, dolore?</p>
-    <a href="" class="link link__type_primary link__type_with-icon">Learn More <div class="icon icon__size_s icon__arrow_right"></div></a>
-    <img src="imgs/hist.png" alt="" class="image">
+    <div class="second-screen__cell second-screen__cell_padding">
+      <h2 class="subtitle">Measure Impressions and&nbspReach Post</h2>
+      <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, iste odit officia itaque quis aperiam!</p>
+      <a href="" class="link link_type_primary link_with-icon_right">Learn More <div class="icon icon_size_s icon_arrow_right link__icon"></div></a>
+    </div>
+    <div class="second-screen__cell">
+      <img src="imgs/hist.png" alt="" class="image">
+    </div>
   </section>
+
+  <section class="third-screen">
+    <div class="third-screen__cell third-screen__cell_padding">
+      <h2 class="subtitle">Shedule Your Post Whenever You Want</h2>
+      <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, dolore?</p>
+      <a href="" class="link link_type_primary link_with-icon_right">Learn More <div class="icon icon_size_s icon_arrow_right link__icon"></div></a>
+    </div>
+    <div class="third-screen__cell">
+      <img src="imgs/calendar.png" alt="" class="image">
+    </div>
+    <div class="third-screen__cell third-screen__cell_padding">
+      <div class="caption">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="caption__icon"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        <p class="caption__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, est.</p>
+      </div>
+    </div>
+  </section>
+  
 </body>
 </html>
