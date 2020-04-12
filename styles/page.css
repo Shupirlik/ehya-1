@@ -8,7 +8,7 @@ section {
   margin: 0;
 }
 
-.container{
+.container {
   width: 100%;
   background-color: var(--color-background-secondary);
 }
@@ -21,9 +21,10 @@ section {
   padding-top: 30px;
 }
 
-.first-screen__cell{
+.first-screen__cell {
   max-width: 600px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 // .first-screen::before {
@@ -74,6 +75,7 @@ section {
 }
 
 @media (min-width: 1200px) {
+
   .second-screen {
     display:grid;
     grid-template-columns: 1fr 1fr;

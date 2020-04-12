@@ -7,3 +7,25 @@
   max-width: 950px;
   background-color: var(--color-background-secondary);
 }
+
+.header__nav {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-list-item {
+  margin-right: 24px;
+  list-style-type: none;
+}
+
+}
+

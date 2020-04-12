@@ -1,8 +1,12 @@
 .image {
   width: 100%;
+  margin-top: 16px;
 }
 
-.first-screen__image {
+// Это должно быть здесь или там где  first-screen?
+.first-screen__image {    
+  position: relative;
+  top: -100px;
   margin: 0 auto;
   text-align: center;
   z-index: 2;
