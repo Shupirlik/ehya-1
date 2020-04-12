@@ -4,7 +4,6 @@
     align-items: flex-start;
     margin: auto;
     padding: 0 5%;
-    margin-top: 20px ;
     width: 75%;
     border-top: dashed 1px var(--color-text-secondary);
     text-align: left;
@@ -27,7 +26,6 @@
 @media (min-width: 1200px) {
     .caption {
         justify-content: flex-start;
-        margin: 20px 0 0 0 ;
         padding: 0;
         width: 100%;
     }
